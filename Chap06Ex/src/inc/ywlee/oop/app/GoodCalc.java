@@ -26,13 +26,6 @@ public class GoodCalc extends Calculator {
 		return sum/a.length;
 	}
 
-	public static void main(String[] args) { 
-		
-		Calculator cal=new GoodCalc();
-		System.out.println(cal.add(2, 3));
-		System.out.println(cal.substract(2, 3));
-		System.out.println(cal.average(new int[]{1,2,3}));
-
-	}
+	 
 
 }
